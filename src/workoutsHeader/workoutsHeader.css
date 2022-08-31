@@ -1,0 +1,7 @@
+.WorkoutsHeader {
+  background-color: black;
+  color: white;
+  display: grid;
+  margin: 0;
+  padding-left: 20px;
+}

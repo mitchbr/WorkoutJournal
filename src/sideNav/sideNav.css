@@ -1,0 +1,12 @@
+.SideNav {
+  background-color: #09141c;
+  color: white;
+  display: grid;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
