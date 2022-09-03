@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { v4 as uuidv4 } from 'uuid';
 
 import SideNav from './sideNav/sideNav.js'
 import WorkoutsHeader from './workoutsHeader/workoutsHeader.js';

@@ -1,7 +1,5 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import { v4 as uuidv4 } from 'uuid';
-
-const WORKOUT_KEY = "WorkoutList"
 
 function NewWorkout({ workouts, setWorkouts }) {
     // TODO: Map items to option tile
@@ -39,7 +37,7 @@ function NewWorkout({ workouts, setWorkouts }) {
                 <h2>Date</h2>
                 <input type="date" ref={workoutDate}></input>
                 <h2>Duration</h2>
-                <input ref={workoutDuration}></input> hours // TODO: What input?
+                <input ref={workoutDuration}></input> hours
                 <h2>Workout Type</h2>
                 <select ref={workoutType}>
                     <option value="Running">Running</option>
