@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/WorkoutJournal/static/css/main.a6fa442f.css",
+    "main.js": "/WorkoutJournal/static/js/main.d82f3cc3.js",
+    "index.html": "/WorkoutJournal/index.html",
+    "main.a6fa442f.css.map": "/WorkoutJournal/static/css/main.a6fa442f.css.map",
+    "main.d82f3cc3.js.map": "/WorkoutJournal/static/js/main.d82f3cc3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6fa442f.css",
+    "static/js/main.d82f3cc3.js"
+  ]
+}
