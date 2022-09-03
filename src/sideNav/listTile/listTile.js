@@ -1,6 +1,6 @@
 import './listTile.css';
 
-function WorkoutTile({navListItem, changeWorkout, index}) {
+function SideNavTile({title, key, changeWorkout, index}) {
     function highlight(e) {
         e.target.style.background = '#173347';
     }
@@ -14,12 +14,12 @@ function WorkoutTile({navListItem, changeWorkout, index}) {
     }
 
     return (
-        <div className="WorkoutTile" onMouseOver={highlight} onMouseOut={unhighlight} onClick={setChangeWorkout} >
-            <li key={navListItem}>
-                <h2>{navListItem}</h2>
+        <div className="SideNavTile" onMouseOver={highlight} onMouseOut={unhighlight} onClick={setChangeWorkout} >
+            <li key={key}>
+                <h2>{title}</h2>
             </li>
         </div>
     );
 }
 
-export default WorkoutTile;
+export default SideNavTile;

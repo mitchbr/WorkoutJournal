@@ -4,11 +4,18 @@ import '../index.css'
 import WorkoutTile from './listTile/listTile.js'
 
 function SideNav({navList, changeWorkout}) {
-    const navListItems = navList.map((item, index) => <WorkoutTile navListItem={item} changeWorkout={changeWorkout} index={index} />);
+    const navListItems = navList.map((item, index) => 
+        <WorkoutTile title={item.date} key={item.id} changeWorkout={changeWorkout} index={index} />
+    );
+
+    const newWorkoutTile = <WorkoutTile title={'New Workout'} key={'NEW_ITEM'} changeWorkout={changeWorkout} index={-1} />;
 
     return (
         <div className="SideNav">
-            <ul>{navListItems}</ul>
+            <ul>
+                {navListItems}
+                {newWorkoutTile}
+            </ul>
         </div>
     );
 }
